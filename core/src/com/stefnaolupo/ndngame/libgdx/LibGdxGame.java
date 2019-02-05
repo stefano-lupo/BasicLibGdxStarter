@@ -1,9 +1,6 @@
 package com.stefnaolupo.ndngame.libgdx;
 
 import com.badlogic.gdx.Game;
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.GL20;
-import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 public class LibGdxGame extends Game {
@@ -25,5 +22,6 @@ public class LibGdxGame extends Game {
 	@Override
 	public void dispose () {
 		batch.dispose();
+		screen.dispose();
 	}
 }
